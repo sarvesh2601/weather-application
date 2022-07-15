@@ -1,5 +1,5 @@
-const geocode = require('./utils/geocode')
-const forecast = require('./utils/forecast')
+const geocode = require('geocode.js')
+const forecast = require('forecast.js')
 if(process.argv[2] === undefined){
     console.log('Please enter an address')
 }else{
